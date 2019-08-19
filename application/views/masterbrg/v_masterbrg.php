@@ -60,9 +60,9 @@
                           </div>
                         </div>
                         <div class="form-group">
-                          <input type="text" name="path1" id="path1">
-                          <input type="text" name="path2" id="path2">
-                          <input type="text" name="path3" id="path3">
+                          <input type="hidden" name="path1" id="path1">
+                          <input type="hidden" name="path2" id="path2">
+                          <input type="hidden" name="path3" id="path3">
                         </div>
                         <div class="form-group">
                           <label>Artikel</label>
