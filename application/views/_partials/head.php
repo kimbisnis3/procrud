@@ -7,7 +7,8 @@
     <link href="<?php echo base_url() ?>assets/lte/plugins/datatables.net-bs/css/dataTables.bootstrap.css" rel="stylesheet" />
     <link href="<?php echo base_url() ?>assets/lte/plugins/select2/dist/css/select2.min.css" rel="stylesheet" />
     <link href="<?php echo base_url() ?>assets/lte/dist/css/AdminLTE.min.css" rel="stylesheet"/>
-    <link href="<?php echo base_url() ?>assets/lte/dist/css/skins/_all-skins.min.css" rel="stylesheet"/>
+    <!-- <link href="<?php echo base_url() ?>assets/lte/dist/css/skins/_all-skins.min.css" rel="stylesheet"/> -->
+    <link href="<?php echo base_url() ?>assets/lte/dist/css/skins/skin-custom.css" rel="stylesheet"/>
     <link href="<?php echo base_url() ?>assets/lte/plugins/animate/animate.css" rel="stylesheet"/>
     <link href="<?php echo base_url() ?>assets/lte/plugins/pace/pace_custom.css" rel="stylesheet"/>
     <link href="<?php echo base_url() ?>assets/custom.css" rel="stylesheet"/>

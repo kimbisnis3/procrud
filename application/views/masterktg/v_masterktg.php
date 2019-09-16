@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <?php $this->load->view('_partials/head'); ?>
-  <body class="hold-transition skin-blue sidebar-mini">
+  <body class="hold-transition skin-custom sidebar-mini hue">
     <div class="wrapper" id="app">
       <?php $this->load->view('_partials/topbar'); ?>
       <?php $this->load->view('_partials/sidebar'); ?>
