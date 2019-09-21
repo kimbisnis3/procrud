@@ -121,8 +121,21 @@
   var state;
   var idx     = -1;
   var table ;
+  var api_image = '<?php echo base_url() ?>';
+
+  function img() {
+    
+  }
+
+  function showim(img) {
+    return `<img style="max-width : 60px;" src="${api_image}${img}" >`  
+  }
 
   $(document).ready(function() {
+
+    // $.get("https://jsonplaceholder.typicode.com/users/",{ page : 'w'}, function (data) {
+    //   console.log(data)
+    // }, "json");
 
       activemenu(path);
 
@@ -137,7 +150,7 @@
           { "data": "no" }, 
           { "data": "id" , "visible" : false},
           { "data": "nama" }, 
-          { "data": "image" }, 
+          { "render" : (data,type,row,meta) => { return showim(row['image']) }},
           { "data": "artikel" },
           { "data": "ket" },
           ]

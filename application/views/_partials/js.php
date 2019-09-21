@@ -9,6 +9,7 @@
 <script src="<?php echo base_url()?>assets/lte/plugins/select2/dist/js/select2.full.min.js"></script>
 <script src="<?php echo base_url()?>assets/lte/plugins/ajaxupload/jquery.ajaxfileupload.js"></script>
 <script src="<?php echo base_url()?>assets/lte/plugins/pace/pace.js"></script>
+<script src="//jquery.loading.js"></script>
 <script type="text/javascript">
 
 	var php_base_url = '<?php echo base_url() ?>';

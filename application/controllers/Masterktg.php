@@ -24,7 +24,7 @@ class Masterktg extends CI_Controller {
             $row['no']      = $i + 1;
             $row['nama']    = $r->nama;
             $row['artikel'] = $r->artikel;
-            $row['image']   = showimage($r->image);
+            $row['image']   = $r->image;
             $row['ket']     = $r->ket;
 
             $list[] = $row;

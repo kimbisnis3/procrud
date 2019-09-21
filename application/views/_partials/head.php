@@ -13,6 +13,7 @@
     <link href="<?php echo base_url() ?>assets/lte/plugins/pace/pace_custom.css" rel="stylesheet"/>
     <link href="<?php echo base_url() ?>assets/custom.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <link href="//jquery.loading.css" rel="stylesheet">
     <style type="text/css">
         .modal {
             overflow-y:auto !important; 

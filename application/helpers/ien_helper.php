@@ -2,6 +2,19 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 /** If empty null helper **/
 if (!function_exists('status')) {
+
+    //for upload
+    function api_image_upload() 
+    {
+        return 'd:/xampp/htdocs/_uploadapi/';
+    }
+
+    // for read file
+    function api_image() 
+    {
+        return 'localhost/_uploadapi/';
+    }
+
     function ien($text)
     {
         if ($text=='') {
@@ -55,8 +68,8 @@ if (!function_exists('status')) {
         if ($i == NULL){
             $i = "(Noimage)";
         } else {
-            $img = base_url().''.$i;
-            $i = "<img style='max-width : 60px;' src='".$img."'>";
+            $img = $i;
+            $i = "<img style='max-width : 60px;' src='".prep_url(api_image().$img)."'>";
         }
 
         return $i;
